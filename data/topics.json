@@ -1,0 +1,673 @@
+[
+  {
+    "id": "sec-1",
+    "category": "security_alliance",
+    "category_label": "安全保障・同盟",
+    "category_en": "Alliance & Security",
+    "rank": 1,
+    "title": "グリーンランド危機——NATOは生き残れるか",
+    "shift": "米国が同盟を取引対象として扱い始めた",
+    "pressure": 84,
+    "spread": 5,
+    "velocity": "↑",
+    "sources": ["r/geopolitics", "Chatham House", "Al Jazeera"],
+    "fault_line": "同盟の再編",
+    "facets": [
+      { "flag": "🇩🇰", "label": "併合圧力", "desc": "「北米の一部」として獲得を明言。デンマーク首相がNATOの根幹を問う" },
+      { "flag": "🇪🇺", "label": "欧州自律の加速", "desc": "「10年分のタイムラインが圧縮された」" },
+      { "flag": "🇪🇸", "label": "スペインの基地拒否", "desc": "「どこまで従うか」の線引きが各国で開始" }
+    ],
+    "community": [
+      { "flag": "🌐", "com": "r/geopolitics", "pr": 84, "v": "↑", "frame": "「NATOの終焉」として議論", "tone": "Crisis", "presence": "high" },
+      { "flag": "🇪🇺", "com": "r/europe", "pr": 76, "v": "↑", "frame": "「米国との関係を見直すべき」", "tone": "Anger", "presence": "high" },
+      { "flag": "🇺🇸", "com": "r/Conservative", "pr": 45, "v": "→", "frame": "「当然の権利」として支持", "tone": "Supportive", "presence": "medium" },
+      { "flag": "🇯🇵", "com": "はてブ / 5ch", "pr": 20, "v": "→", "frame": "ほぼ形成されていない", "tone": "—", "presence": "absent" }
+    ],
+    "watch_next": "EUの反威圧措置の対米適用議論。日本メディアの報道開始タイミング。"
+  },
+  {
+    "id": "sec-2",
+    "category": "security_alliance",
+    "category_label": "安全保障・同盟",
+    "category_en": "Alliance & Security",
+    "rank": 2,
+    "title": "ウクライナ停戦——「米国抜き」の安全保障は成立するか",
+    "shift": "欧州が初めて米国なしの安全保障を真剣に議論している",
+    "pressure": 55,
+    "spread": 3,
+    "velocity": "→",
+    "sources": ["r/geopolitics", "Wellington"],
+    "fault_line": "同盟の再編",
+    "facets": [
+      { "flag": "🇺🇦", "label": "領土的一体性の一部放棄", "desc": "主権維持と領土放棄の両立シナリオが現実味" },
+      { "flag": "🇩🇪", "label": "ドイツの防衛予算増額", "desc": "4.2兆円規模。だが執行速度が課題" }
+    ],
+    "community": [
+      { "flag": "🌐", "com": "r/geopolitics", "pr": 55, "v": "→", "frame": "停戦条件の具体論に移行", "tone": "Pragmatic", "presence": "high" },
+      { "flag": "🇺🇦", "com": "r/ukraine", "pr": 85, "v": "↑", "frame": "領土放棄への強い反発", "tone": "Defiant", "presence": "high" },
+      { "flag": "🇯🇵", "com": "日本メディア", "pr": 30, "v": "→", "frame": "報道はあるが構造分析は薄い", "tone": "Surface", "presence": "low" }
+    ],
+    "watch_next": "停戦交渉のタイムライン。復興計画の規模。"
+  },
+  {
+    "id": "sec-3",
+    "category": "security_alliance",
+    "category_label": "安全保障・同盟",
+    "category_en": "Alliance & Security",
+    "rank": 3,
+    "title": "ベネズエラ介入——新モンロー主義は何を壊すか",
+    "shift": "国際法の枠外での力の行使が成功体験として定着し始めた",
+    "pressure": 78,
+    "spread": 4,
+    "velocity": "↑",
+    "sources": ["r/geopolitics", "Al Jazeera"],
+    "fault_line": "正統性の空洞化",
+    "facets": [
+      { "flag": "🇻🇪", "label": "マドゥロ拘束", "desc": "「国際法は不要」発言。西半球支配意志を明示" },
+      { "flag": "🌎", "label": "中南米の分断", "desc": "ブラジル「主権侵害」vsアルゼンチン「米国支持」" },
+      { "flag": "🇨🇳", "label": "中国の浸透加速", "desc": "介入が「代替パートナー」としての中国の魅力を再認識させた" }
+    ],
+    "community": [
+      { "flag": "🌐", "com": "r/geopolitics", "pr": 78, "v": "↑", "frame": "新モンロー主義の復活として分析", "tone": "Alarmed", "presence": "high" },
+      { "flag": "🇧🇷", "com": "r/brasil", "pr": 72, "v": "↑", "frame": "「帝国主義の再来」", "tone": "Outrage", "presence": "high" },
+      { "flag": "🇯🇵", "com": "はてブ", "pr": 15, "v": "→", "frame": "ほぼ話題になっていない", "tone": "—", "presence": "absent" }
+    ],
+    "watch_next": "OAS緊急会合。ブラジルの仲介動向。"
+  },
+  {
+    "id": "tech-1",
+    "category": "technology_ai",
+    "category_label": "テクノロジー・AI",
+    "category_en": "Technology & AI",
+    "rank": 1,
+    "title": "AIに意識はあるのか——第3波論争",
+    "shift": "「意識がなくても配慮すべきか」へ問いが移行した",
+    "pressure": 82,
+    "spread": 5,
+    "velocity": "↑",
+    "sources": ["r/philosophy", "LessWrong", "EA Forum"],
+    "fault_line": "AI存在論",
+    "facets": [
+      { "flag": "🧠", "label": "意識論争", "desc": "Claudeの「内部表象」研究が起爆剤。cf-debate.comで42論点整理" },
+      { "flag": "🔍", "label": "解釈可能性シフト", "desc": "RLHF→mechanistic interpretabilityへ" },
+      { "flag": "🛑", "label": "エージェントの止め方", "desc": "「停止→証拠保全→承認→再開」が標準に" }
+    ],
+    "community": [
+      { "flag": "🌐", "com": "r/philosophy", "pr": 82, "v": "↑", "frame": "機能主義 vs 中国語の部屋が再燃", "tone": "Intense", "presence": "high" },
+      { "flag": "🌐", "com": "LessWrong", "pr": 75, "v": "↑", "frame": "welfare政策の実装可能性に焦点", "tone": "Constructive", "presence": "high" },
+      { "flag": "🇯🇵", "com": "Qiita / Zenn", "pr": 30, "v": "→", "frame": "技術的関心のみ。哲学議論は薄い", "tone": "Technical", "presence": "low" }
+    ],
+    "watch_next": "Anthropicの次の解釈可能性論文。cf-debate.comの世論調査結果。"
+  },
+  {
+    "id": "tech-2",
+    "category": "technology_ai",
+    "category_label": "テクノロジー・AI",
+    "category_en": "Technology & AI",
+    "rank": 2,
+    "title": "Claude Code、LLMコスト崩壊——制度が追いつかない",
+    "shift": "技術変化の速度が既存の前提を追い越している",
+    "pressure": 52,
+    "spread": 3,
+    "velocity": "↑",
+    "sources": ["Hacker News", "r/technology"],
+    "fault_line": "制度のタイムライン",
+    "facets": [
+      { "flag": "🎨", "label": "デザイン×実装の境界消失", "desc": "Tailwind共同創設者が1ヶ月Figma未使用を公言" },
+      { "flag": "💰", "label": "LLM推論コスト急落", "desc": "gpt-5.4-nano $0.10/1M。月数ドルで日次パイプライン実現" },
+      { "flag": "📋", "label": "EU AI Act施行", "desc": "「汎用AI」の定義が曖昧で企業が解釈を争う" }
+    ],
+    "community": [
+      { "flag": "🌐", "com": "Hacker News", "pr": 60, "v": "↑", "frame": "コスト崩壊で個人開発者のパワー急拡大", "tone": "Excited", "presence": "high" },
+      { "flag": "🇪🇺", "com": "r/europe", "pr": 40, "v": "→", "frame": "AI Act「過剰規制」の懸念", "tone": "Worried", "presence": "medium" },
+      { "flag": "🇯🇵", "com": "Qiita", "pr": 45, "v": "↑", "frame": "Claude Code実践記事が急増", "tone": "Hands-on", "presence": "medium" }
+    ],
+    "watch_next": "EU AI Act最初の執行事例。Figmaの対抗AI機能。"
+  },
+  {
+    "id": "tech-3",
+    "category": "technology_ai",
+    "category_label": "テクノロジー・AI",
+    "category_en": "Technology & AI",
+    "rank": 3,
+    "title": "自動運転レベル4認可ラッシュ——責任は誰が取るのか",
+    "shift": "技術の準備と法制度のギャップが事故前に顕在化",
+    "pressure": 48,
+    "spread": 3,
+    "velocity": "↑",
+    "sources": ["r/SelfDrivingCars", "Hacker News"],
+    "fault_line": "制度のタイムライン",
+    "facets": [
+      { "flag": "🇺🇸", "label": "Waymo全米拡大", "desc": "マイアミ・アトランタで営業開始" },
+      { "flag": "🇨🇳", "label": "百度Apollo無人化", "desc": "武漢・重慶で完全無人タクシーが日常化。事故データ非公開" },
+      { "flag": "🇪🇺", "label": "EU型式認証の遅延", "desc": "加盟国間で基準が統一されず" }
+    ],
+    "community": [
+      { "flag": "🌐", "com": "r/SelfDrivingCars", "pr": 55, "v": "↑", "frame": "「事故が起きるまで規制は動かない」", "tone": "Resigned", "presence": "high" },
+      { "flag": "🇺🇸", "com": "r/technology", "pr": 48, "v": "→", "frame": "便利さと責任論の分裂", "tone": "Divided", "presence": "medium" },
+      { "flag": "🇯🇵", "com": "くるまのニュース", "pr": 35, "v": "→", "frame": "日本メーカーの出遅れ論が中心", "tone": "Anxious", "presence": "medium" }
+    ],
+    "watch_next": "最初の死亡事故訴訟。中国の事故データ開示圧力。"
+  },
+  {
+    "id": "energy-1",
+    "category": "energy_resources",
+    "category_label": "エネルギー・資源",
+    "category_en": "Energy & Resources",
+    "rank": 1,
+    "title": "水・レアアース・バッテリー——新しい覇権の通貨",
+    "shift": "石油に代わる資源が地政学の主役になりつつある",
+    "pressure": 72,
+    "spread": 4,
+    "velocity": "↑",
+    "sources": ["TIME", "r/geopolitics"],
+    "fault_line": "覇権の物理層",
+    "facets": [
+      { "flag": "💧", "label": "水資源の武器化", "desc": "ナイルダム・インダス条約停止・中国巨大ダムが同時進行" },
+      { "flag": "🔋", "label": "電気国家の対立", "desc": "中国が21世紀インフラを格安提供" },
+      { "flag": "⛏️", "label": "レアアース支配", "desc": "GPU・バッテリー・軍事装備が中国のレアアースに依存" }
+    ],
+    "community": [
+      { "flag": "🌐", "com": "r/geopolitics", "pr": 72, "v": "↑", "frame": "「electrostate」概念が浸透", "tone": "Analytical", "presence": "high" },
+      { "flag": "🇮🇳", "com": "r/india", "pr": 65, "v": "↑", "frame": "インダス条約停止への危機感", "tone": "Anxious", "presence": "high" },
+      { "flag": "🇨🇳", "com": "Zhihu", "pr": 40, "v": "→", "frame": "レアアース優位性を当然視", "tone": "Confident", "presence": "medium" },
+      { "flag": "🇯🇵", "com": "日経 / はてブ", "pr": 35, "v": "→", "frame": "経済安保の文脈で部分的に議論", "tone": "Selective", "presence": "low" }
+    ],
+    "watch_next": "エチオピア-エジプト交渉。レアアース輸出規制拡大。"
+  },
+  {
+    "id": "energy-2",
+    "category": "energy_resources",
+    "category_label": "エネルギー・資源",
+    "category_en": "Energy & Resources",
+    "rank": 2,
+    "title": "原発回帰の世界的加速——脱炭素か安全保障か",
+    "shift": "気候変動と安全保障の二重圧力で反原発の前提が崩れつつある",
+    "pressure": 55,
+    "spread": 3,
+    "velocity": "↑",
+    "sources": ["r/energy", "IAEA"],
+    "fault_line": "制度のタイムライン",
+    "facets": [
+      { "flag": "🇫🇷", "label": "フランスのSMR推進", "desc": "小型モジュール炉に数兆円投資" },
+      { "flag": "🇯🇵", "label": "日本の再稼働加速", "desc": "柏崎刈羽の再稼働判断が迫る" },
+      { "flag": "🇺🇸", "label": "Three Mile Island再起動", "desc": "Microsoftとの電力契約で廃炉原発が復活" }
+    ],
+    "community": [
+      { "flag": "🇪🇺", "com": "r/europe", "pr": 55, "v": "↑", "frame": "ドイツ脱原発 vs フランス原発推進で分裂", "tone": "Polarized", "presence": "high" },
+      { "flag": "🇯🇵", "com": "Yahoo!ニュース", "pr": 60, "v": "↑", "frame": "電気代高騰で「現実論」に世論シフト", "tone": "Pragmatic", "presence": "high" },
+      { "flag": "🌐", "com": "r/energy", "pr": 50, "v": "↑", "frame": "SMRへの期待とコスト懐疑が共存", "tone": "Cautious", "presence": "medium" }
+    ],
+    "watch_next": "柏崎刈羽の再稼働判断。EU taxonomy最終決定。"
+  },
+  {
+    "id": "energy-3",
+    "category": "energy_resources",
+    "category_label": "エネルギー・資源",
+    "category_en": "Energy & Resources",
+    "rank": 3,
+    "title": "南米リチウム三角地帯の資源ナショナリズム",
+    "shift": "EV需要の爆発でリチウム産出国が資源を戦略的武器として使い始めた",
+    "pressure": 45,
+    "spread": 2,
+    "velocity": "↑",
+    "sources": ["r/geopolitics", "Reuters"],
+    "fault_line": "覇権の物理層",
+    "facets": [
+      { "flag": "🇧🇴", "label": "ボリビアの国有化", "desc": "中国・ロシアとの独占契約" },
+      { "flag": "🇨🇱", "label": "チリの官民ハイブリッド", "desc": "SQM部分国有化。環境規制で生産減速" },
+      { "flag": "🇦🇷", "label": "アルゼンチンのミレイ路線", "desc": "完全自由化。外資呼び込み戦略" }
+    ],
+    "community": [
+      { "flag": "🌐", "com": "r/geopolitics", "pr": 45, "v": "↑", "frame": "「リチウムOPEC」形成の可能性", "tone": "Speculative", "presence": "medium" },
+      { "flag": "🇨🇱", "com": "r/chile", "pr": 55, "v": "↑", "frame": "環境破壊への懸念と経済的恩恵の板挟み", "tone": "Conflicted", "presence": "high" },
+      { "flag": "🇯🇵", "com": "日経", "pr": 30, "v": "→", "frame": "調達リスクの文脈のみ", "tone": "Narrow", "presence": "low" }
+    ],
+    "watch_next": "ボリビア-中国契約の詳細。チリの環境訴訟判決。"
+  },
+  {
+    "id": "culture-1",
+    "category": "culture_media",
+    "category_label": "文化・メディア",
+    "category_en": "Culture & Media",
+    "rank": 1,
+    "title": "呪術廻戦「味覚戦争」——誰の審美眼が正統か",
+    "shift": "アニメの評価権が「原作国」から「消費市場」に移動しつつある",
+    "pressure": 70,
+    "spread": 3,
+    "velocity": "↑",
+    "sources": ["r/anime", "fandomwire"],
+    "fault_line": "文化権力の移動",
+    "facets": [
+      { "flag": "🎬", "label": "JJK3期4話の衝突", "desc": "英語圏「peak cinema」vs 日本「感情描写を急ぎすぎ」" },
+      { "flag": "🤖", "label": "東映AI活用宣言", "desc": "「人間の手」の価値を問い直す。値上げと不信感が合流" }
+    ],
+    "community": [
+      { "flag": "🌐", "com": "r/anime", "pr": 70, "v": "↑", "frame": "演出革新を支持", "tone": "Enthusiastic", "presence": "high" },
+      { "flag": "🇯🇵", "com": "5ch / X", "pr": 65, "v": "↑", "frame": "「原作軽視」への強い反発", "tone": "Defensive", "presence": "high" },
+      { "flag": "🇯🇵", "com": "アニメーター労組", "pr": 50, "v": "↑", "frame": "AI導入への雇用不安", "tone": "Fearful", "presence": "medium" }
+    ],
+    "watch_next": "JJK以降の制作方針。他スタジオのAI活用表明。"
+  },
+  {
+    "id": "culture-2",
+    "category": "culture_media",
+    "category_label": "文化・メディア",
+    "category_en": "Culture & Media",
+    "rank": 2,
+    "title": "r/philosophyのAI画像BAN——公共空間の中立とは何か",
+    "shift": "プラットフォームの中立義務が哲学的に定式化され始めた",
+    "pressure": 58,
+    "spread": 3,
+    "velocity": "→",
+    "sources": ["r/philosophy"],
+    "fault_line": "文化権力の移動",
+    "facets": [
+      { "flag": "🔇", "label": "BAN事件", "desc": "AI画像付き記事でBANされ、プラットフォーム論に発展" },
+      { "flag": "⚖️", "label": "中立義務の定式化", "desc": "「独占的公共空間でのイデオロギー押しつけは許されない」" }
+    ],
+    "community": [
+      { "flag": "🌐", "com": "r/philosophy", "pr": 58, "v": "→", "frame": "言論の自由の問題として議論", "tone": "Principled", "presence": "high" },
+      { "flag": "🌐", "com": "Hacker News", "pr": 40, "v": "→", "frame": "モデレーション設計を議論", "tone": "Pragmatic", "presence": "medium" },
+      { "flag": "🇯🇵", "com": "はてブ", "pr": 15, "v": "→", "frame": "ほぼ話題になっていない", "tone": "—", "presence": "absent" }
+    ],
+    "watch_next": "主要プラットフォームのAIコンテンツポリシー改定。"
+  },
+  {
+    "id": "culture-3",
+    "category": "culture_media",
+    "category_label": "文化・メディア",
+    "category_en": "Culture & Media",
+    "rank": 3,
+    "title": "TikTok禁止法の文化的余震——「アルゴリズムの主権」は誰のものか",
+    "shift": "プラットフォーム規制が表現の自由と国家安全保障の衝突点に",
+    "pressure": 62,
+    "spread": 4,
+    "velocity": "↑",
+    "sources": ["r/technology", "r/TikTok"],
+    "fault_line": "文化権力の移動",
+    "facets": [
+      { "flag": "🇺🇸", "label": "米国禁止法の執行", "desc": "最高裁が合憲判断。ByteDanceの売却期限が迫る" },
+      { "flag": "🌐", "label": "クリエイターの大移動", "desc": "YouTube Shorts・Reelsへの移行加速" },
+      { "flag": "🇨🇳", "label": "中国の反応", "desc": "「米国のダブルスタンダード」として自国検閲を正当化" }
+    ],
+    "community": [
+      { "flag": "🇺🇸", "com": "r/TikTok", "pr": 75, "v": "↑", "frame": "「表現の自由の侵害」", "tone": "Outrage", "presence": "high" },
+      { "flag": "🌐", "com": "r/technology", "pr": 62, "v": "↑", "frame": "安全保障論 vs 表現の自由", "tone": "Divided", "presence": "high" },
+      { "flag": "🇨🇳", "com": "Weibo", "pr": 50, "v": "→", "frame": "「自由の国」の矛盾として嘲笑", "tone": "Mocking", "presence": "medium" },
+      { "flag": "🇯🇵", "com": "はてブ / X", "pr": 35, "v": "→", "frame": "日本のTikTokerへの影響に関心", "tone": "Surface", "presence": "low" }
+    ],
+    "watch_next": "ByteDanceの売却交渉。EU Digital Markets Actとの連動。"
+  },
+  {
+    "id": "demo-1",
+    "category": "democracy_governance",
+    "category_label": "民主主義・統治",
+    "category_en": "Democracy & Governance",
+    "rank": 1,
+    "title": "ハンガリー選挙——EU改革の最大障壁は消えるか",
+    "shift": "オルバン退場の可能性がEU統合を加速させうる",
+    "pressure": 38,
+    "spread": 2,
+    "velocity": "→",
+    "sources": ["TIME", "r/europe"],
+    "fault_line": "正統性の空洞化",
+    "facets": [
+      { "flag": "🇭🇺", "label": "選挙の行方", "desc": "全会一致制の最大抵抗勢力が消える可能性" },
+      { "flag": "🇪🇺", "label": "EU条約改正", "desc": "グリーンランド危機で改革機運が高まっている" }
+    ],
+    "community": [
+      { "flag": "🇪🇺", "com": "r/europe", "pr": 45, "v": "↑", "frame": "オルバン退場への期待と懐疑", "tone": "Hopeful", "presence": "medium" },
+      { "flag": "🌐", "com": "r/geopolitics", "pr": 35, "v": "→", "frame": "ポピュリズムの構造要因が残る", "tone": "Skeptical", "presence": "medium" }
+    ],
+    "watch_next": "選挙日程。世論調査。"
+  },
+  {
+    "id": "demo-2",
+    "category": "democracy_governance",
+    "category_label": "民主主義・統治",
+    "category_en": "Democracy & Governance",
+    "rank": 2,
+    "title": "インドの選挙改革論争——世界最大の民主主義の正統性",
+    "shift": "電子投票の信頼性と選挙管理の独立性が同時に問われている",
+    "pressure": 52,
+    "spread": 3,
+    "velocity": "↑",
+    "sources": ["r/india", "The Hindu"],
+    "fault_line": "正統性の空洞化",
+    "facets": [
+      { "flag": "🇮🇳", "label": "EVMの信頼性", "desc": "電子投票機の不正疑惑が野党統一議題に" },
+      { "flag": "🇮🇳", "label": "選挙管理委員の任命", "desc": "モディ政権による任命プロセス変更に批判" }
+    ],
+    "community": [
+      { "flag": "🇮🇳", "com": "r/india", "pr": 65, "v": "↑", "frame": "「民主主義が内側から侵食」", "tone": "Alarmed", "presence": "high" },
+      { "flag": "🌐", "com": "r/geopolitics", "pr": 35, "v": "→", "frame": "世界最大の民主主義の動揺", "tone": "Concerned", "presence": "medium" },
+      { "flag": "🇯🇵", "com": "日本メディア", "pr": 10, "v": "→", "frame": "ほぼ報道なし", "tone": "—", "presence": "absent" }
+    ],
+    "watch_next": "次回州選挙の結果。最高裁のEVM判決。"
+  },
+  {
+    "id": "demo-3",
+    "category": "democracy_governance",
+    "category_label": "民主主義・統治",
+    "category_en": "Democracy & Governance",
+    "rank": 3,
+    "title": "生成AIと選挙干渉——2026年中間選挙への懸念",
+    "shift": "ディープフェイクと自動生成プロパガンダが選挙の信頼性を脅かす",
+    "pressure": 58,
+    "spread": 4,
+    "velocity": "↑",
+    "sources": ["r/politics", "r/technology"],
+    "fault_line": "正統性の空洞化",
+    "facets": [
+      { "flag": "🇺🇸", "label": "2026年中間選挙", "desc": "AI生成偽動画・偽音声への対策が間に合わない" },
+      { "flag": "🇪🇺", "label": "EU DSA執行", "desc": "AIコンテンツ開示義務が選挙期間中に試される" },
+      { "flag": "🌐", "label": "グローバル感染", "desc": "1カ国の手法が即座に他国にコピーされる" }
+    ],
+    "community": [
+      { "flag": "🇺🇸", "com": "r/politics", "pr": 60, "v": "↑", "frame": "「何が本物かわからない」", "tone": "Anxious", "presence": "high" },
+      { "flag": "🌐", "com": "r/technology", "pr": 55, "v": "↑", "frame": "検知 vs 生成の軍拡競争", "tone": "Technical", "presence": "high" },
+      { "flag": "🇯🇵", "com": "はてブ", "pr": 25, "v": "→", "frame": "日本の選挙との関連で部分的に議論", "tone": "Distant", "presence": "low" }
+    ],
+    "watch_next": "最初のAI生成選挙広告訴訟。ラベリング義務の実効性。"
+  },
+  {
+    "id": "conflict-1",
+    "category": "regional_conflicts",
+    "category_label": "地域紛争",
+    "category_en": "Regional Conflicts",
+    "rank": 1,
+    "title": "イスラエル-イラン——中東の秩序が溶けている",
+    "shift": "核開発が外交的問題から軍事的問題に不可逆的に遷移",
+    "pressure": 60,
+    "spread": 3,
+    "velocity": "→",
+    "sources": ["r/geopolitics", "Wellington"],
+    "fault_line": "覇権の物理層",
+    "facets": [
+      { "flag": "🇮🇱", "label": "軍事衝突シナリオ", "desc": "「存在的脅威」認定。独自判断余地拡大" },
+      { "flag": "🇸🇦", "label": "サウジ-イラン正常化2年目", "desc": "中国の仲介者としての地位が固まる" },
+      { "flag": "🇾🇪", "label": "イエメンの人道崩壊", "desc": "「忘れられた危機」化" }
+    ],
+    "community": [
+      { "flag": "🌐", "com": "r/geopolitics", "pr": 60, "v": "→", "frame": "多極化の構造分析", "tone": "Analytical", "presence": "high" },
+      { "flag": "🇮🇷", "com": "Iranian forums", "pr": 70, "v": "↑", "frame": "核開発への外圧に国民的団結", "tone": "Defiant", "presence": "high" },
+      { "flag": "🇯🇵", "com": "日本メディア", "pr": 25, "v": "→", "frame": "石油供給リスクの文脈のみ", "tone": "Narrow", "presence": "low" }
+    ],
+    "watch_next": "イランの濃縮度上昇。イエメン停戦の形骸化。"
+  },
+  {
+    "id": "conflict-2",
+    "category": "regional_conflicts",
+    "category_label": "地域紛争",
+    "category_en": "Regional Conflicts",
+    "rank": 2,
+    "title": "ミャンマー偽装選挙——世界が見捨てた民主主義",
+    "shift": "「選挙」が権威主義の正統化装置に転用されている",
+    "pressure": 35,
+    "spread": 1,
+    "velocity": "→",
+    "sources": ["The Diplomat", "r/geopolitics"],
+    "fault_line": "正統性の空洞化",
+    "facets": [
+      { "flag": "🇲🇲", "label": "軍政の選挙", "desc": "民主主義的外観で国内支配を固定化" }
+    ],
+    "community": [
+      { "flag": "🇲🇲", "com": "r/myanmar", "pr": 80, "v": "↑", "frame": "「国際社会は見捨てた」", "tone": "Desperate", "presence": "high" },
+      { "flag": "🌐", "com": "r/geopolitics", "pr": 30, "v": "→", "frame": "偽装民主主義の構造として分析", "tone": "Analytical", "presence": "medium" },
+      { "flag": "🇯🇵", "com": "日本メディア", "pr": 10, "v": "→", "frame": "忘れられた危機", "tone": "—", "presence": "absent" }
+    ],
+    "watch_next": "選挙後の国際認知。ASEAN内部の対応。"
+  },
+  {
+    "id": "conflict-3",
+    "category": "regional_conflicts",
+    "category_label": "地域紛争",
+    "category_en": "Regional Conflicts",
+    "rank": 3,
+    "title": "サヘルのクーデター連鎖——ワグネルが埋める空白",
+    "shift": "旧植民地大国への不信がロシアの介入を容易にした",
+    "pressure": 50,
+    "spread": 2,
+    "velocity": "→",
+    "sources": ["r/geopolitics", "The Africa Report"],
+    "fault_line": "正統性の空洞化",
+    "facets": [
+      { "flag": "🇲🇱", "label": "マリ・ブルキナファソ・ニジェール", "desc": "フランス軍撤退後ワグネルが空白を埋める" },
+      { "flag": "🌍", "label": "過激派×水不足", "desc": "水不足を利用した勧誘・支配が拡大" }
+    ],
+    "community": [
+      { "flag": "🌍", "com": "The Africa Report", "pr": 45, "v": "→", "frame": "旧植民地への不信がロシア歓迎論に", "tone": "Pragmatic", "presence": "medium" },
+      { "flag": "🌐", "com": "r/geopolitics", "pr": 50, "v": "→", "frame": "ワグネルの資源収奪を批判的に分析", "tone": "Critical", "presence": "medium" },
+      { "flag": "🇯🇵", "com": "日本メディア", "pr": 5, "v": "→", "frame": "ほぼ報道なし", "tone": "—", "presence": "absent" }
+    ],
+    "watch_next": "ECOWAS制裁の実効性。ロシア-アフリカサミット。"
+  },
+  {
+    "id": "ent-1",
+    "category": "entertainment",
+    "category_label": "エンタメ",
+    "category_en": "Entertainment",
+    "rank": 1,
+    "title": "Netflix「Adolescence」現象——10代の暴力とインセル文化を描いて世界が震えた",
+    "shift": "フィクションが社会問題の起爆剤になる構造がストリーミング時代に加速",
+    "pressure": 72,
+    "spread": 4,
+    "velocity": "↑",
+    "sources": ["r/television", "r/netflix", "Guardian"],
+    "fault_line": "文化権力の移動",
+    "facets": [
+      { "flag": "🇬🇧", "label": "イギリスの反応", "desc": "学校での上映会が自治体レベルで議論に" },
+      { "flag": "🇺🇸", "label": "米国マノスフィアの反発", "desc": "「男性を悪者にするプロパガンダ」として攻撃" },
+      { "flag": "🇯🇵", "label": "日本での受容", "desc": "「日本のいじめ問題と通底する」文脈で議論" }
+    ],
+    "community": [
+      { "flag": "🇬🇧", "com": "r/unitedkingdom", "pr": 75, "v": "↑", "frame": "「社会の鏡」として真剣な議論", "tone": "Urgent", "presence": "high" },
+      { "flag": "🇺🇸", "com": "r/MensRights", "pr": 65, "v": "↑", "frame": "「一方的な男性悪玉論」への反発", "tone": "Hostile", "presence": "high" },
+      { "flag": "🌐", "com": "r/television", "pr": 72, "v": "↑", "frame": "演出革新と社会的メッセージを評価", "tone": "Impressed", "presence": "high" },
+      { "flag": "🇯🇵", "com": "X / Filmarks", "pr": 40, "v": "↑", "frame": "「こういう作品が日本にもほしい」", "tone": "Reflective", "presence": "medium" }
+    ],
+    "watch_next": "英国での教育利用の公式化。シーズン2制作発表。"
+  },
+  {
+    "id": "ent-2",
+    "category": "entertainment",
+    "category_label": "エンタメ",
+    "category_en": "Entertainment",
+    "rank": 2,
+    "title": "K-POP事務所の経営危機——アイドル産業モデルの限界",
+    "shift": "ファンダム経済の過熱と労働搾取の構造が同時に可視化",
+    "pressure": 58,
+    "spread": 3,
+    "velocity": "↑",
+    "sources": ["r/kpop", "r/korea", "Billboard"],
+    "fault_line": "文化権力の移動",
+    "facets": [
+      { "flag": "🇰🇷", "label": "HYBE内紛", "desc": "バン・シヒョクとミン・ヒジンの対立が財閥ガバナンスの問題に" },
+      { "flag": "🇰🇷", "label": "アイドルの精神衛生", "desc": "過労・プライバシー侵害が国際問題に" },
+      { "flag": "🌐", "label": "ファンダムの政治化", "desc": "ファンが株主として経営に介入する勃興" }
+    ],
+    "community": [
+      { "flag": "🇰🇷", "com": "r/korea", "pr": 60, "v": "↑", "frame": "「産業として持続不可能」", "tone": "Disillusioned", "presence": "high" },
+      { "flag": "🌐", "com": "r/kpop", "pr": 65, "v": "↑", "frame": "アイドル権利 vs 推し活文化の矛盾を自覚", "tone": "Conflicted", "presence": "high" },
+      { "flag": "🇯🇵", "com": "X / Yahoo!ニュース", "pr": 45, "v": "→", "frame": "日本のアイドル産業との比較", "tone": "Comparative", "presence": "medium" }
+    ],
+    "watch_next": "HYBE取締役会の結果。韓国エンタメ労働法改正案。"
+  },
+  {
+    "id": "ent-3",
+    "category": "entertainment",
+    "category_label": "エンタメ",
+    "category_en": "Entertainment",
+    "rank": 3,
+    "title": "AI生成音楽の権利戦争——「誰の声」が「誰のもの」か",
+    "shift": "AIによる声・スタイルの複製が著作権の前提を根本から揺るがす",
+    "pressure": 55,
+    "spread": 3,
+    "velocity": "↑",
+    "sources": ["r/Music", "r/WeAreTheMusicMakers", "Hacker News"],
+    "fault_line": "制度のタイムライン",
+    "facets": [
+      { "flag": "🎵", "label": "Drake/Weeknd偽曲事件", "desc": "AI「新曲」がSpotifyで数百万回再生後に削除" },
+      { "flag": "⚖️", "label": "声の権利法案", "desc": "テネシー州ELVIS Act。声を財産権として保護" },
+      { "flag": "🎤", "label": "アーティストの二極化", "desc": "Grimes「使ってよい」vs多数「断固拒否」" }
+    ],
+    "community": [
+      { "flag": "🌐", "com": "r/Music", "pr": 55, "v": "↑", "frame": "「音楽の価値とは何か」根本議論", "tone": "Existential", "presence": "high" },
+      { "flag": "🌐", "com": "r/WeAreTheMusicMakers", "pr": 60, "v": "↑", "frame": "制作者目線で「AI共存」の具体策", "tone": "Pragmatic", "presence": "high" },
+      { "flag": "🇯🇵", "com": "ボカロ界隈", "pr": 45, "v": "↑", "frame": "ボカロ文化の延長として比較的受容的", "tone": "Open", "presence": "medium" }
+    ],
+    "watch_next": "米著作権局のAI音楽ガイドライン。主要レーベルのAIライセンシングモデル。"
+  },
+  {
+    "id": "sports-1",
+    "category": "sports",
+    "category_label": "スポーツ",
+    "category_en": "Sports",
+    "rank": 1,
+    "title": "サウジアラビアW杯2034——「スポーツウォッシング」の完成形か",
+    "shift": "メガイベントが人権問題を覆い隠す装置として固定化しつつある",
+    "pressure": 60,
+    "spread": 4,
+    "velocity": "→",
+    "sources": ["r/soccer", "r/football", "The Athletic"],
+    "fault_line": "正統性の空洞化",
+    "facets": [
+      { "flag": "🇸🇦", "label": "2034年W杯決定", "desc": "対立候補なしで決定。人権デューデリジェンスは形骸化" },
+      { "flag": "🏟️", "label": "建設労働者の権利", "desc": "カタールの教訓が活かされているか" },
+      { "flag": "⚽", "label": "選手ボイコット議論", "desc": "ノルウェー代表の前例。実効性は限定的" }
+    ],
+    "community": [
+      { "flag": "🌐", "com": "r/soccer", "pr": 65, "v": "→", "frame": "「また同じ繰り返し」", "tone": "Cynical", "presence": "high" },
+      { "flag": "🇸🇦", "com": "Saudi media", "pr": 40, "v": "→", "frame": "「国の変革の象徴」", "tone": "Proud", "presence": "medium" },
+      { "flag": "🇬🇧", "com": "r/football", "pr": 60, "v": "→", "frame": "ボイコット vs 「結局見る」のジレンマ", "tone": "Guilty", "presence": "high" },
+      { "flag": "🇯🇵", "com": "r/Jleague / X", "pr": 30, "v": "→", "frame": "日本代表の出場可否に関心集中", "tone": "Narrow", "presence": "low" }
+    ],
+    "watch_next": "FIFA人権報告書。選手組合の声明。"
+  },
+  {
+    "id": "sports-2",
+    "category": "sports",
+    "category_label": "スポーツ",
+    "category_en": "Sports",
+    "rank": 2,
+    "title": "大谷翔平の経済圏——一人のアスリートが産業構造を変えている",
+    "shift": "個人アスリートのメディア価値がチーム・リーグの枠を超え経済圏を形成",
+    "pressure": 55,
+    "spread": 3,
+    "velocity": "↑",
+    "sources": ["r/baseball", "r/NPB", "ESPN"],
+    "fault_line": "文化権力の移動",
+    "facets": [
+      { "flag": "🇺🇸", "label": "MLB視聴率の大谷依存", "desc": "ドジャース戦がリーグ平均の3倍" },
+      { "flag": "🇯🇵", "label": "日本メディアの過熱", "desc": "大谷報道量が他スポーツを圧迫" },
+      { "flag": "🌐", "label": "アスリートの個人メディア化", "desc": "チームより個人をフォローする視聴行動" }
+    ],
+    "community": [
+      { "flag": "🇺🇸", "com": "r/baseball", "pr": 55, "v": "↑", "frame": "「歴史上最高の野球選手」論争が日常化", "tone": "Awestruck", "presence": "high" },
+      { "flag": "🇯🇵", "com": "r/NPB / X", "pr": 70, "v": "↑", "frame": "国民的関心。「大谷以外が見えない」問題も", "tone": "Obsessive", "presence": "high" },
+      { "flag": "🌐", "com": "ESPN", "pr": 50, "v": "→", "frame": "経済圏モデルとして分析", "tone": "Business", "presence": "medium" }
+    ],
+    "watch_next": "次の契約更新規模。MLB国際戦略。NPB視聴率変化。"
+  },
+  {
+    "id": "sports-3",
+    "category": "sports",
+    "category_label": "スポーツ",
+    "category_en": "Sports",
+    "rank": 3,
+    "title": "eスポーツバブルの崩壊と再建——持続可能なモデルはあるか",
+    "shift": "投資バブル崩壊後、「本当のスポーツビジネス」になれるかが問われている",
+    "pressure": 45,
+    "spread": 2,
+    "velocity": "→",
+    "sources": ["r/esports", "Dexerto"],
+    "fault_line": "制度のタイムライン",
+    "facets": [
+      { "flag": "🌐", "label": "チーム連鎖倒産", "desc": "TSM・CLG等の名門が解散・売却" },
+      { "flag": "🇸🇦", "label": "サウジマネー流入", "desc": "Savvy Gaming Groupが買収。スポーツウォッシング2.0" },
+      { "flag": "🇨🇳", "label": "中国のゲーム規制緩和", "desc": "未成年制限維持しつつプロリーグ支援拡大" }
+    ],
+    "community": [
+      { "flag": "🌐", "com": "r/esports", "pr": 50, "v": "→", "frame": "「必要な浄化」vs「産業が死にかけ」", "tone": "Polarized", "presence": "high" },
+      { "flag": "🇺🇸", "com": "r/leagueoflegends", "pr": 45, "v": "→", "frame": "LCS縮小への失望", "tone": "Resigned", "presence": "medium" },
+      { "flag": "🇯🇵", "com": "eスポーツ界隈", "pr": 30, "v": "→", "frame": "日本のeスポーツ法制の遅れ", "tone": "Frustrated", "presence": "low" }
+    ],
+    "watch_next": "Riot Gamesのリーグ再編。サウジ投資の次の買収先。IOCの正式採用判断。"
+  },
+  {
+    "id": "sci-1",
+    "category": "science_climate",
+    "category_label": "科学・気候",
+    "category_en": "Science & Climate",
+    "rank": 1,
+    "title": "「所与としての世界」の消失——気候が哲学を書き換える",
+    "shift": "地質学的事実が日常に浸透し、時間感覚が揺らぎ始めた",
+    "pressure": 42,
+    "spread": 2,
+    "velocity": "→",
+    "sources": ["r/CriticalTheory"],
+    "fault_line": "制度のタイムライン",
+    "facets": [
+      { "flag": "🌍", "label": "チャクラバルティの問題提起", "desc": "「ヒマラヤの年齢を考える時、所与性は消える」" },
+      { "flag": "🌿", "label": "生物多様性の不可逆的喪失", "desc": "バナナの遺伝的均一性。種の消滅速度が可視化" }
+    ],
+    "community": [
+      { "flag": "🌐", "com": "r/CriticalTheory", "pr": 42, "v": "→", "frame": "ポストコロニアルと気候の接続", "tone": "Philosophical", "presence": "medium" },
+      { "flag": "🌐", "com": "r/climate", "pr": 35, "v": "→", "frame": "科学データとして認知。哲学議論は薄い", "tone": "Data-driven", "presence": "medium" },
+      { "flag": "🇯🇵", "com": "はてブ", "pr": 15, "v": "→", "frame": "ほぼ話題になっていない", "tone": "—", "presence": "absent" }
+    ],
+    "watch_next": "COP交渉と地球工学議論の接点。"
+  },
+  {
+    "id": "sci-2",
+    "category": "science_climate",
+    "category_label": "科学・気候",
+    "category_en": "Science & Climate",
+    "rank": 2,
+    "title": "鳥インフルエンザH5N1——次のパンデミック候補が牛に広がった",
+    "shift": "ヒト感染リスクが「理論上」から「時間の問題」に移行しつつある",
+    "pressure": 65,
+    "spread": 4,
+    "velocity": "↑",
+    "sources": ["r/science", "r/medicine", "CDC"],
+    "fault_line": "制度のタイムライン",
+    "facets": [
+      { "flag": "🐄", "label": "米国の乳牛感染", "desc": "2024年から拡大。酪農労働者の感染増加" },
+      { "flag": "🧬", "label": "変異の監視", "desc": "ヒト-ヒト感染に必要な変異が少数と判明" },
+      { "flag": "💉", "label": "ワクチン準備", "desc": "mRNA候補は存在するが製造体制が未整備" }
+    ],
+    "community": [
+      { "flag": "🌐", "com": "r/science", "pr": 65, "v": "↑", "frame": "「COVID前夜と同じパターン」", "tone": "Worried", "presence": "high" },
+      { "flag": "🌐", "com": "r/medicine", "pr": 60, "v": "↑", "frame": "臨床現場の準備不足を懸念", "tone": "Professional", "presence": "high" },
+      { "flag": "🇺🇸", "com": "r/Conservative", "pr": 30, "v": "→", "frame": "「また恐怖を煽っている」", "tone": "Dismissive", "presence": "medium" },
+      { "flag": "🇯🇵", "com": "Yahoo!ニュース", "pr": 40, "v": "→", "frame": "養鶏業界への影響として報道", "tone": "Industry", "presence": "medium" }
+    ],
+    "watch_next": "CDC/WHOのリスク評価引き上げ。ヒト-ヒト感染確認。mRNAワクチン治験。"
+  },
+  {
+    "id": "sci-3",
+    "category": "science_climate",
+    "category_label": "科学・気候",
+    "category_en": "Science & Climate",
+    "rank": 3,
+    "title": "核融合発電の「あと10年」——今回は本当か",
+    "shift": "民間投資の急増で「永遠の10年後」が初めて現実的タイムラインに近づいている",
+    "pressure": 48,
+    "spread": 2,
+    "velocity": "↑",
+    "sources": ["r/fusion", "Hacker News"],
+    "fault_line": "制度のタイムライン",
+    "facets": [
+      { "flag": "🇺🇸", "label": "Commonwealth Fusion", "desc": "SPARC実験炉の建設進行。2028年プラズマ点火目標" },
+      { "flag": "🇬🇧", "label": "JETの後継STEP", "desc": "2040年の商用核融合炉稼働計画" },
+      { "flag": "💰", "label": "民間投資急増", "desc": "2025年だけで$7B。Google・Amazonも参入" }
+    ],
+    "community": [
+      { "flag": "🌐", "com": "r/fusion", "pr": 55, "v": "↑", "frame": "「今回は違う」という慎重な楽観", "tone": "Cautiously optimistic", "presence": "high" },
+      { "flag": "🌐", "com": "Hacker News", "pr": 48, "v": "↑", "frame": "技術的ハードルの冷静な分析", "tone": "Technical", "presence": "medium" },
+      { "flag": "🇯🇵", "com": "はてブ / 日経", "pr": 30, "v": "→", "frame": "ITERの遅延を踏まえた懐疑論", "tone": "Skeptical", "presence": "low" }
+    ],
+    "watch_next": "SPARC建設進捗。トリチウム燃料供給チェーンの確立。"
+  }
+]
