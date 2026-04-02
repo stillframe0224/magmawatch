@@ -69,6 +69,9 @@ function GB() {
 function UA() {
   return <Flag><rect width="20" height="7.5" fill="#005bbb" /><rect y="7.5" width="20" height="7.5" fill="#ffd500" /></Flag>;
 }
+function RU() {
+  return <Flag><rect width="20" height="5" fill="#fff" /><rect y="5" width="20" height="5" fill="#0039a6" /><rect y="10" width="20" height="5" fill="#d52b1e" /></Flag>;
+}
 function DK() {
   return (
     <Flag>
@@ -430,7 +433,7 @@ function star(cx: number, cy: number, r: number): string {
 
 // --- Registry ---
 const FLAG_MAP: Record<string, React.ComponentType> = {
-  "🇯🇵": JP, "🇺🇸": US, "🇨🇳": CN, "🇪🇺": EU, "🇩🇪": DE, "🇫🇷": FR,
+  "🇯🇵": JP, "🇺🇸": US, "🇨🇳": CN, "🇷🇺": RU, "🇪🇺": EU, "🇩🇪": DE, "🇫🇷": FR,
   "🇬🇧": GB, "🇺🇦": UA, "🇩🇰": DK, "🇪🇸": ES, "🇻🇪": VE, "🇧🇷": BR,
   "🇮🇳": IN, "🇮🇷": IR, "🇮🇱": IL, "🇸🇦": SA, "🇰🇷": KR, "🇭🇺": HU,
   "🇦🇷": AR, "🇨🇱": CL, "🇧🇴": BO, "🇲🇲": MM, "🇲🇱": ML, "🇾🇪": YE,

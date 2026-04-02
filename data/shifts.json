@@ -23,11 +23,19 @@
       "question": "VPNで回避可能な遮断に実効性はあるのか？それとも「従わない者の可視化」が真の目的か？"
     },
     "watch_next": "4月1日の完全遮断実施の有無。Max（VK傘下の国家推奨メッセンジャー）への移行率。Scarlet Swanの正体判明と3/29デモの規模。",
-    "tags": ["information-control", "platform-war", "youth-anger", "telegram"],
+    "tags": [
+      "information-control",
+      "platform-war",
+      "youth-anger",
+      "telegram"
+    ],
     "sources": "Meduza, Kommersant, Downdetector, Telegram",
     "confidence": 0.88,
     "date": "2026-03-29",
-    "updated": "2026-03-29"
+    "updated": "2026-03-29",
+    "signal": "accelerating",
+    "heat": 88,
+    "delta7d": 12
   },
   {
     "id": "ru-pol-20260329-remeslo",
@@ -53,11 +61,19 @@
       "question": "体制側インフルエンサーの離反は個別事象か、構造的な亀裂の兆候か？"
     },
     "watch_next": "Remesloの釈放時期と釈放後の言動。他の親クレムリン・ブロガーの反応（沈黙か連帯か）。精神医学の政治利用に対する国際的圧力の効果。",
-    "tags": ["punitive-psychiatry", "influencer-defection", "war-fatigue", "kremlin"],
+    "tags": [
+      "punitive-psychiatry",
+      "influencer-defection",
+      "war-fatigue",
+      "kremlin"
+    ],
     "sources": "Meduza, Novaya Gazeta, Telegram, Human Rights Watch",
     "confidence": 0.82,
     "date": "2026-03-29",
-    "updated": "2026-03-29"
+    "updated": "2026-03-29",
+    "signal": "emerging",
+    "heat": 72,
+    "delta7d": 8
   },
   {
     "id": "ru-pol-20260329-rybar",
@@ -83,11 +99,19 @@
       "question": "軍事ブロガーの焦点移動は自発的判断か、当局の指示か？"
     },
     "watch_next": "4月の春季攻勢シーズンにウクライナ報道が回復するか。軍事ブロガーとロシア国防省の関係変化。フォロワーの離反率。",
-    "tags": ["war-narrative", "military-bloggers", "focus-shift", "africa-pivot"],
+    "tags": [
+      "war-narrative",
+      "military-bloggers",
+      "focus-shift",
+      "africa-pivot"
+    ],
     "sources": "Rybar Telegram, WarGonzo, Mediazona, iStories",
     "confidence": 0.79,
     "date": "2026-03-29",
-    "updated": "2026-03-29"
+    "updated": "2026-03-29",
+    "signal": "cooling",
+    "heat": 58,
+    "delta7d": -5
   },
   {
     "id": "cn-pol-20260329-zhihu",
@@ -113,11 +137,19 @@
       "question": "自主検証文化は体制を脅かすのか、それともガス抜きとして機能するのか？"
     },
     "watch_next": "CAC（中国サイバースペース管理局）がZhihuの検証文化をどの程度許容するか。規制強化の有無。検証文化がWeibo（微博、中国版Twitter的なマイクロブログ）など大衆プラットフォームに波及するか。",
-    "tags": ["fact-checking", "censorship-evasion", "knowledge-class", "zhihu"],
+    "tags": [
+      "fact-checking",
+      "censorship-evasion",
+      "knowledge-class",
+      "zhihu"
+    ],
     "sources": "Zhihu, China Digital Times, SupChina, MIT Technology Review",
     "confidence": 0.85,
     "date": "2026-03-29",
-    "updated": "2026-03-29"
+    "updated": "2026-03-29",
+    "signal": "accelerating",
+    "heat": 76,
+    "delta7d": 15
   },
   {
     "id": "cn-cul-20260329-feminism",
@@ -143,11 +175,19 @@
       "question": "消費を通じた抵抗は政治的フェミニズムの代替になり得るか？"
     },
     "watch_next": "不買運動の継続性。当局がEC企業の「女神節」マーケティングに介入するか。Doubanの女性コミュニティへの規制強化。Xiaohongshu（小紅書、中国版Instagram的なライフスタイルSNS）での議論の広がり。",
-    "tags": ["feminism", "censorship", "consumerism", "gender-politics"],
+    "tags": [
+      "feminism",
+      "censorship",
+      "consumerism",
+      "gender-politics"
+    ],
     "sources": "Weibo, Douban, Xiaohongshu, China Digital Times, SCMP",
     "confidence": 0.83,
     "date": "2026-03-29",
-    "updated": "2026-03-29"
+    "updated": "2026-03-29",
+    "signal": "steady",
+    "heat": 68,
+    "delta7d": -3
   },
   {
     "id": "cn-tech-20260329-ev",
@@ -173,11 +213,19 @@
       "question": "「愛国消費」圧力はEV市場の健全な競争を阻害するか促進するか？"
     },
     "watch_next": "NDRCによるガソリン価格のさらなる動向。Tesla中国の販売データ変化。当局が論争に介入するか放置するか。",
-    "tags": ["ev-war", "nationalism", "consumer-politics", "energy"],
+    "tags": [
+      "ev-war",
+      "nationalism",
+      "consumer-politics",
+      "energy"
+    ],
     "sources": "Weibo, Zhihu, Autohome, 36Kr, CnEVPost",
-    "confidence": 0.80,
+    "confidence": 0.8,
     "date": "2026-03-29",
-    "updated": "2026-03-29"
+    "updated": "2026-03-29",
+    "signal": "emerging",
+    "heat": 62,
+    "delta7d": 6
   },
   {
     "id": "us-cul-20260329-druski",
@@ -203,11 +251,19 @@
       "question": "SNS時代のコメディアンに、従来のジャーナリストと同等の責任を求めるべきか？"
     },
     "watch_next": "Druskiの次回投稿の方向性。TikTokのコンテンツモデレーション対応。TPUSA（Turning Point USA、保守系政治活動団体）の次の動き。",
-    "tags": ["satire", "free-speech", "culture-war", "comedy-politics"],
+    "tags": [
+      "satire",
+      "free-speech",
+      "culture-war",
+      "comedy-politics"
+    ],
     "sources": "Twitter/X, TikTok, Instagram, Variety, The Daily Beast",
     "confidence": 0.81,
     "date": "2026-03-29",
-    "updated": "2026-03-29"
+    "updated": "2026-03-29",
+    "signal": "spike",
+    "heat": 80,
+    "delta7d": 20
   },
   {
     "id": "us-cul-20260329-chalamet",
@@ -233,11 +289,19 @@
       "question": "「誰も気にしていない」のは事実か、それとも構造的排除の結果か？"
     },
     "watch_next": "Chalamotの対応（謝罪・撤回・倍プッシュ）。NEA（米国芸術基金）予算への政策議論への波及。伝統芸術団体のマーケティング戦略変化。",
-    "tags": ["high-culture", "class-divide", "celebrity-discourse", "arts-funding"],
+    "tags": [
+      "high-culture",
+      "class-divide",
+      "celebrity-discourse",
+      "arts-funding"
+    ],
     "sources": "Twitter/X, Reddit, Variety, The Guardian, NYT Arts",
     "confidence": 0.77,
     "date": "2026-03-29",
-    "updated": "2026-03-29"
+    "updated": "2026-03-29",
+    "signal": "emerging",
+    "heat": 55,
+    "delta7d": 5
   },
   {
     "id": "us-pol-20260329-california",
@@ -263,11 +327,19 @@
       "question": "「メリトクラシー」は本当に中立か？基準の設計自体が政治的では？"
     },
     "watch_next": "排除された候補の独自討論会開催の動き。DNC（民主党全国委員会）の対応。基準変更の署名運動の規模。",
-    "tags": ["structural-racism", "debate-access", "meritocracy-myth", "california"],
+    "tags": [
+      "structural-racism",
+      "debate-access",
+      "meritocracy-myth",
+      "california"
+    ],
     "sources": "LA Times, CalMatters, Twitter/X, Politico California",
     "confidence": 0.78,
     "date": "2026-03-29",
-    "updated": "2026-03-29"
+    "updated": "2026-03-29",
+    "signal": "emerging",
+    "heat": 60,
+    "delta7d": 7
   },
   {
     "id": "cross-thought-20260329-authority",
@@ -293,11 +365,20 @@
       "question": "「権威の危機」はデジタル時代の過渡的現象か、構造的な不可逆変化か？"
     },
     "watch_next": "各国での「権威再構築」の試み（中国：CAC検閲強化、ロシア：Roskomnadzor遮断、米国：FCC（連邦通信委員会）プラットフォーム規制）の成否。DAO（分散型自律組織）やCommunity Notes（Xのコミュニティノート機能）等の代替的権威構造の発展。",
-    "tags": ["epistemic-crisis", "authority", "cross-national", "digital-age", "meta-analysis"],
+    "tags": [
+      "epistemic-crisis",
+      "authority",
+      "cross-national",
+      "digital-age",
+      "meta-analysis"
+    ],
     "sources": "Synthesis across all monitored sources",
-    "confidence": 0.90,
+    "confidence": 0.9,
     "date": "2026-03-29",
     "updated": "2026-03-29",
-    "cross_section": "thought"
+    "cross_section": "thought",
+    "signal": "steady",
+    "heat": 50,
+    "delta7d": 3
   }
 ]

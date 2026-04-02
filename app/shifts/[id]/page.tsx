@@ -1,8 +1,11 @@
 import shiftsData from "@/data/shifts.json";
 import { notFound } from "next/navigation";
+import FlagIcon from "@/components/FlagIcon";
+import { SignalBadge } from "@/components/SignalBadge";
 
 type Shift = {
   id: string;
+  country: string;
   country_label: string;
   genre_label: string;
   community: string;
@@ -23,10 +26,17 @@ type Shift = {
   confidence: number;
   date: string;
   updated: string;
+  signal: string;
+  heat: number;
+  delta7d: number;
 };
 
 export function generateStaticParams() {
   return (shiftsData as Shift[]).map((s) => ({ id: s.id }));
+}
+
+function stripEmoji(label: string): string {
+  return label.replace(/^[^\w\s]+\s*/, "").trim();
 }
 
 export default function ShiftPage({ params }: { params: { id: string } }) {
@@ -37,35 +47,82 @@ export default function ShiftPage({ params }: { params: { id: string } }) {
     <main className="min-h-screen py-8 px-4 md:px-6">
       <div className="max-w-[720px] mx-auto">
 
-        {/* Back nav */}
-        <nav className="mb-6">
+        {/* Brand + Back */}
+        <div className="flex justify-between items-center mb-4">
+          <a href="/" className="flex items-baseline gap-1 hover:opacity-80 transition-opacity">
+            <span className="font-serif italic text-ember text-sm">Magma</span>
+            <span className="font-serif text-ash-200 text-sm">Watch</span>
+          </a>
           <a
             href="/"
-            className="text-xs font-mono text-ash-400 hover:text-ember transition-colors"
+            className="text-[10px] font-mono text-ash-400 hover:text-ember transition-colors"
           >
             ← Back
           </a>
-        </nav>
+        </div>
 
-        {/* Header */}
-        <header className="mb-8">
-          <div className="flex flex-wrap items-center gap-2 mb-2 text-xs font-mono text-ash-400">
-            <span>{shift.country_label}</span>
-            <span className="text-ash-600">·</span>
-            <span>{shift.genre_label}</span>
-            <span className="text-ash-600">·</span>
-            <span>{shift.date}</span>
-          </div>
-          <h1 className="text-xl md:text-2xl font-serif text-ash-100 leading-snug mb-3">
-            {shift.title}
-          </h1>
+        {/* Badge row */}
+        <div className="flex flex-wrap items-center gap-1.5 mb-3">
+          <span className="inline-flex items-center gap-1 px-2 py-0.5 text-[10px] font-mono
+                           text-ash-200 bg-surface-2 rounded ring-1 ring-surface-3">
+            <FlagIcon flag={shift.country_label.split(" ")[0]} size={14} />
+            {stripEmoji(shift.country_label)}
+          </span>
+          <span className="px-2 py-0.5 text-[10px] font-mono text-ash-200
+                           bg-surface-2 rounded ring-1 ring-surface-3">
+            {shift.genre_label}
+          </span>
+          <SignalBadge signal={shift.signal} />
+        </div>
+
+        {/* Title */}
+        <h1 className="text-xl md:text-2xl font-serif text-ash-100 leading-snug mb-2">
+          {shift.title}
+        </h1>
+
+        {/* Metrics row */}
+        <div className="flex flex-wrap gap-3 mb-3 text-[11px] font-mono">
+          <span className="text-ash-400">
+            Heat <span className="text-ash-200">{shift.heat}</span>
+          </span>
+          <span className="text-ash-400">
+            Δ7d{" "}
+            <span className={shift.delta7d > 0 ? "text-red" : "text-ash-200"}>
+              {shift.delta7d > 0 ? "+" : ""}{shift.delta7d}
+            </span>
+          </span>
+          <span className="text-ash-400">
+            Confidence{" "}
+            <span className="text-ash-200">{(shift.confidence * 100).toFixed(0)}%</span>
+          </span>
+        </div>
+
+        <div className="section-divider mb-4" />
+
+        {/* Lead paragraph */}
+        <p className="text-sm text-ash-200 leading-relaxed mb-6">
+          {shift.shift}
+        </p>
+
+        {/* Why now — hero version */}
+        <section className="mb-4">
+          <h2 className="article-heading">Why now</h2>
           <p className="text-sm text-ash-200 leading-relaxed">
-            {shift.shift}
+            {shift.why_now}
           </p>
-          <div className="section-divider mt-4" />
-        </header>
+        </section>
 
-        {/* Article body */}
+        {/* Watch next — hero version */}
+        <section className="mb-6">
+          <h2 className="article-heading">Watch next</h2>
+          <p className="text-sm text-ash-200 leading-relaxed">
+            {shift.watch_next}
+          </p>
+        </section>
+
+        <div className="section-divider mb-6" />
+
+        {/* Article body — below the fold */}
         <article className="space-y-8 article-body">
 
           {/* What changed */}
@@ -80,7 +137,7 @@ export default function ShiftPage({ params }: { params: { id: string } }) {
             <ArticleAnalysis text={shift.analysis} />
           </section>
 
-          {/* Why now */}
+          {/* Why now — full version */}
           <section>
             <h2 className="article-heading">Why now</h2>
             <p className="article-text">{shift.why_now}</p>
@@ -109,7 +166,7 @@ export default function ShiftPage({ params }: { params: { id: string } }) {
             </div>
           </section>
 
-          {/* Watch next */}
+          {/* Watch next — full version */}
           <section>
             <h2 className="article-heading">Watch next</h2>
             <p className="article-text">{shift.watch_next}</p>
