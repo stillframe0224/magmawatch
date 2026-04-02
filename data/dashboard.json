@@ -112,7 +112,7 @@
       "signal": "accelerating",
       "anomaly": false,
       "whyNow": null,
-      "shiftId": null
+      "shiftId": "us-tech-20260329-ai-ads"
     },
     {
       "topic": "水道民営化抗議",
@@ -126,7 +126,7 @@
       "signal": "steady",
       "anomaly": false,
       "whyNow": null,
-      "shiftId": null
+      "shiftId": "us-pol-20260329-water"
     },
     {
       "topic": "グリーンランドNATO危機",
@@ -140,7 +140,7 @@
       "signal": "sustained",
       "anomaly": false,
       "whyNow": null,
-      "shiftId": null
+      "shiftId": "gl-sec-20260329-greenland"
     },
     {
       "topic": "ベネズエラ新モンロー主義",
@@ -154,7 +154,7 @@
       "signal": "emerging",
       "anomaly": false,
       "whyNow": null,
-      "shiftId": null
+      "shiftId": "ve-sec-20260329-venezuela"
     }
   ]
 }
