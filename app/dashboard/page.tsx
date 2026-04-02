@@ -1,4 +1,5 @@
 import dashboardData from "@/data/dashboard.json";
+import { WatchFirst } from "./WatchFirst";
 
 type DashboardRow = {
   topic: string;
@@ -11,6 +12,7 @@ type DashboardRow = {
   suppressionDelta7d: number;
   signal: string;
   anomaly: boolean;
+  whyNow: string | null;
 };
 
 type DashboardData = {
@@ -82,6 +84,18 @@ function SignalBadge({ signal }: { signal: string }) {
   );
 }
 
+function extractTop3(rows: DashboardRow[]): DashboardRow[] {
+  const candidates = rows.filter(
+    (r) => r.signal === "spike" || r.signal === "accelerating"
+  );
+  const scored = candidates.map((r) => ({
+    row: r,
+    score: r.delta7d + (r.anomaly ? 10 : 0),
+  }));
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, 3).map((s) => s.row);
+}
+
 export default function DashboardPage() {
   const data = dashboardData as DashboardData;
   const updated = new Date(data.updatedAt);
@@ -123,6 +137,20 @@ export default function DashboardPage() {
             </span>
           </div>
         </div>
+
+        {/* Watch First */}
+        <WatchFirst
+          items={extractTop3(data.rows).map((r) => ({
+            topic: r.topic,
+            region: r.region,
+            heat: r.heat,
+            delta7d: r.delta7d,
+            spread: r.spread,
+            suppression: r.suppression,
+            signal: r.signal,
+            whyNow: r.whyNow,
+          }))}
+        />
 
         {/* Table */}
         <div className="overflow-x-auto rounded-lg card-ring">

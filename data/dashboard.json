@@ -12,7 +12,8 @@
       "suppression": 0.75,
       "suppressionDelta7d": 0.15,
       "signal": "accelerating",
-      "anomaly": true
+      "anomaly": true,
+      "whyNow": "Crackdown and counter-mobilization intensifying in parallel"
     },
     {
       "topic": "親クレムリンブロガー離反",
@@ -24,7 +25,8 @@
       "suppression": 0.60,
       "suppressionDelta7d": 0.10,
       "signal": "emerging",
-      "anomaly": false
+      "anomaly": false,
+      "whyNow": null
     },
     {
       "topic": "軍事ブロガー焦点移動",
@@ -36,7 +38,8 @@
       "suppression": 0.40,
       "suppressionDelta7d": -0.05,
       "signal": "cooling",
-      "anomaly": false
+      "anomaly": false,
+      "whyNow": null
     },
     {
       "topic": "Zhihu自主検証文化",
@@ -48,7 +51,8 @@
       "suppression": 0.85,
       "suppressionDelta7d": 0.20,
       "signal": "accelerating",
-      "anomaly": true
+      "anomaly": true,
+      "whyNow": "Suppression and heat rising simultaneously — self-policing accelerating"
     },
     {
       "topic": "フェミニズムBAN vs 女神節",
@@ -60,7 +64,8 @@
       "suppression": 0.70,
       "suppressionDelta7d": 0.05,
       "signal": "steady",
-      "anomaly": false
+      "anomaly": false,
+      "whyNow": null
     },
     {
       "topic": "EV愛国消費論争",
@@ -72,7 +77,8 @@
       "suppression": 0.30,
       "suppressionDelta7d": 0.00,
       "signal": "emerging",
-      "anomaly": false
+      "anomaly": false,
+      "whyNow": null
     },
     {
       "topic": "Druski政治風刺論争",
@@ -84,7 +90,8 @@
       "suppression": 0.10,
       "suppressionDelta7d": 0.00,
       "signal": "spike",
-      "anomaly": true
+      "anomaly": true,
+      "whyNow": "Creator gossip crossed into platform-governance framing"
     },
     {
       "topic": "AI生成選挙広告",
@@ -96,7 +103,8 @@
       "suppression": 0.15,
       "suppressionDelta7d": 0.02,
       "signal": "accelerating",
-      "anomaly": false
+      "anomaly": false,
+      "whyNow": null
     },
     {
       "topic": "水道民営化抗議",
@@ -108,7 +116,8 @@
       "suppression": 0.20,
       "suppressionDelta7d": -0.05,
       "signal": "steady",
-      "anomaly": false
+      "anomaly": false,
+      "whyNow": null
     },
     {
       "topic": "グリーンランドNATO危機",
@@ -120,7 +129,8 @@
       "suppression": 0.25,
       "suppressionDelta7d": 0.03,
       "signal": "sustained",
-      "anomaly": false
+      "anomaly": false,
+      "whyNow": null
     },
     {
       "topic": "ベネズエラ新モンロー主義",
@@ -132,7 +142,8 @@
       "suppression": 0.35,
       "suppressionDelta7d": 0.08,
       "signal": "emerging",
-      "anomaly": false
+      "anomaly": false,
+      "whyNow": null
     }
   ]
 }
