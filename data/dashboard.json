@@ -13,7 +13,8 @@
       "suppressionDelta7d": 0.15,
       "signal": "accelerating",
       "anomaly": true,
-      "whyNow": "Crackdown and counter-mobilization intensifying in parallel"
+      "whyNow": "Crackdown and counter-mobilization intensifying in parallel",
+      "shiftId": "ru-tech-20260329-telegram"
     },
     {
       "topic": "親クレムリンブロガー離反",
@@ -26,7 +27,8 @@
       "suppressionDelta7d": 0.10,
       "signal": "emerging",
       "anomaly": false,
-      "whyNow": null
+      "whyNow": null,
+      "shiftId": "ru-pol-20260329-remeslo"
     },
     {
       "topic": "軍事ブロガー焦点移動",
@@ -39,7 +41,8 @@
       "suppressionDelta7d": -0.05,
       "signal": "cooling",
       "anomaly": false,
-      "whyNow": null
+      "whyNow": null,
+      "shiftId": "ru-pol-20260329-rybar"
     },
     {
       "topic": "Zhihu自主検証文化",
@@ -52,7 +55,8 @@
       "suppressionDelta7d": 0.20,
       "signal": "accelerating",
       "anomaly": true,
-      "whyNow": "Suppression and heat rising simultaneously — self-policing accelerating"
+      "whyNow": "Suppression and heat rising simultaneously — self-policing accelerating",
+      "shiftId": "cn-pol-20260329-zhihu"
     },
     {
       "topic": "フェミニズムBAN vs 女神節",
@@ -65,7 +69,8 @@
       "suppressionDelta7d": 0.05,
       "signal": "steady",
       "anomaly": false,
-      "whyNow": null
+      "whyNow": null,
+      "shiftId": "cn-cul-20260329-feminism"
     },
     {
       "topic": "EV愛国消費論争",
@@ -78,7 +83,8 @@
       "suppressionDelta7d": 0.00,
       "signal": "emerging",
       "anomaly": false,
-      "whyNow": null
+      "whyNow": null,
+      "shiftId": "cn-tech-20260329-ev"
     },
     {
       "topic": "Druski政治風刺論争",
@@ -91,7 +97,8 @@
       "suppressionDelta7d": 0.00,
       "signal": "spike",
       "anomaly": true,
-      "whyNow": "Creator gossip crossed into platform-governance framing"
+      "whyNow": "Creator gossip crossed into platform-governance framing",
+      "shiftId": "us-cul-20260329-druski"
     },
     {
       "topic": "AI生成選挙広告",
@@ -104,7 +111,8 @@
       "suppressionDelta7d": 0.02,
       "signal": "accelerating",
       "anomaly": false,
-      "whyNow": null
+      "whyNow": null,
+      "shiftId": null
     },
     {
       "topic": "水道民営化抗議",
@@ -117,7 +125,8 @@
       "suppressionDelta7d": -0.05,
       "signal": "steady",
       "anomaly": false,
-      "whyNow": null
+      "whyNow": null,
+      "shiftId": null
     },
     {
       "topic": "グリーンランドNATO危機",
@@ -130,7 +139,8 @@
       "suppressionDelta7d": 0.03,
       "signal": "sustained",
       "anomaly": false,
-      "whyNow": null
+      "whyNow": null,
+      "shiftId": null
     },
     {
       "topic": "ベネズエラ新モンロー主義",
@@ -143,7 +153,8 @@
       "suppressionDelta7d": 0.08,
       "signal": "emerging",
       "anomaly": false,
-      "whyNow": null
+      "whyNow": null,
+      "shiftId": null
     }
   ]
 }

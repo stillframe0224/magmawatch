@@ -11,6 +11,7 @@ type WatchFirstItem = {
   suppression: number;
   signal: string;
   whyNow: string | null;
+  shiftId: string | null;
 };
 
 export function WatchFirst({ items }: { items: WatchFirstItem[] }) {
@@ -133,20 +134,22 @@ export function WatchFirst({ items }: { items: WatchFirstItem[] }) {
                 </div>
 
                 {/* Right: CTA */}
-                <a
-                  href="#"
-                  tabIndex={open ? 0 : -1}
-                  className="
-                    flex-shrink-0 inline-flex items-center gap-1
-                    px-3 py-1.5 rounded
-                    text-xs font-mono text-ember
-                    bg-ember/10 ring-1 ring-ember/20
-                    hover:bg-ember/20 transition-colors
-                  "
-                >
-                  Open analysis
-                  <span className="text-[10px]">&rarr;</span>
-                </a>
+                {item.shiftId && (
+                  <a
+                    href={`/shifts/${item.shiftId}`}
+                    tabIndex={open ? 0 : -1}
+                    className="
+                      flex-shrink-0 inline-flex items-center gap-1
+                      px-3 py-1.5 rounded
+                      text-xs font-mono text-ember
+                      bg-ember/10 ring-1 ring-ember/20
+                      hover:bg-ember/20 transition-colors
+                    "
+                  >
+                    Open analysis
+                    <span className="text-[10px]">&rarr;</span>
+                  </a>
+                )}
               </div>
             </div>
           </div>

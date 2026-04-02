@@ -13,6 +13,7 @@ type DashboardRow = {
   signal: string;
   anomaly: boolean;
   whyNow: string | null;
+  shiftId: string | null;
 };
 
 type DashboardData = {
@@ -149,6 +150,7 @@ export default function DashboardPage() {
             suppression: r.suppression,
             signal: r.signal,
             whyNow: r.whyNow,
+            shiftId: r.shiftId,
           }))}
         />
 
@@ -166,6 +168,7 @@ export default function DashboardPage() {
                 <th className="px-3 py-3">Suppr.</th>
                 <th className="px-3 py-3">Δ7d</th>
                 <th className="px-3 py-3">Signal</th>
+                <th className="px-3 py-3"></th>
               </tr>
             </thead>
             <tbody>
@@ -209,6 +212,16 @@ export default function DashboardPage() {
                   </td>
                   <td className="px-3 py-2.5">
                     <SignalBadge signal={row.signal} />
+                  </td>
+                  <td className="px-3 py-2.5">
+                    {row.shiftId && (
+                      <a
+                        href={`/shifts/${row.shiftId}`}
+                        className="text-xs font-mono text-ash-400 hover:text-ember transition-colors whitespace-nowrap"
+                      >
+                        Analysis →
+                      </a>
+                    )}
                   </td>
                 </tr>
               ))}
