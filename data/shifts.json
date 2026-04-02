@@ -1,0 +1,303 @@
+[
+  {
+    "id": "ru-tech-20260329-telegram",
+    "country": "russia",
+    "country_label": "🇷🇺 Russia",
+    "genre": "tech_life",
+    "genre_label": "テクノロジー/生活",
+    "rank": 1,
+    "community": "Telegram / Meduza / Roskomnadzor",
+    "title": "Telegramブロックと「Scarlet Swan」抗議運動",
+    "shift": "Kremlin（クレムリン、ロシア大統領府）がTelegram（ロシア国民の主要通信手段）を段階的遮断。アクセス失敗率80%に到達。",
+    "context": "Roskomnadzor（ロシア連邦通信監督庁）が3月16日からTelegramの段階的ブロックを開始。国民の怒りが噴出し、「Scarlet Swan」（3月中旬にTikTokとTelegramに突如出現した正体不明の運動体）が3月29日に抗議デモを呼びかけ。FSB（ロシア連邦保安庁）が仕掛けた罠の可能性も指摘されている。",
+    "analysis": "ロシアの情報統制が新たなフェーズに入った。従来の「検閲」ではなく「遮断」という物理的手段への移行は、国民のデジタル生活基盤を直接破壊する。Levada Center（レバダセンター、ロシア唯一の独立系世論調査機関）の調査で14-17歳の46%が「怒り」と回答している点は、プーチン政権が最も恐れる若年層の政治化を加速させる可能性がある。Scarlet Swanの正体が当局の罠であれ自然発生であれ、「抗議の記号」として機能し始めている事実が重要。",
+    "why_now": "4月1日の完全ブロック予定が前倒しされ、段階的遮断が3月中旬から開始。VPN使用率の急増とDowndetector（通信障害追跡サイト）での障害報告の爆発的増加が、問題の可視化を加速させた。",
+    "evidence": [
+      "Meduza（メドゥーザ、ラトビア拠点のロシア独立系メディア）調査: Telegramアクセス失敗率が80%に到達",
+      "14-17歳の46%が「怒り」と回答（Levada Center独立系世論調査）",
+      "Scarlet Swan Telegramチャンネルに8,800人が登録、3/29デモ呼びかけ"
+    ],
+    "frames": {
+      "pro": "情報主権の防衛、国内プラットフォームMax（国家推奨メッセンジャー）への移行促進",
+      "con": "言論統制の強化、ビジネス基盤の破壊、国民生活への直接打撃",
+      "question": "VPNで回避可能な遮断に実効性はあるのか？それとも「従わない者の可視化」が真の目的か？"
+    },
+    "watch_next": "4月1日の完全遮断実施の有無。Max（VK傘下の国家推奨メッセンジャー）への移行率。Scarlet Swanの正体判明と3/29デモの規模。",
+    "tags": ["information-control", "platform-war", "youth-anger", "telegram"],
+    "sources": "Meduza, Kommersant, Downdetector, Telegram",
+    "confidence": 0.88,
+    "date": "2026-03-29",
+    "updated": "2026-03-29"
+  },
+  {
+    "id": "ru-pol-20260329-remeslo",
+    "country": "russia",
+    "country_label": "🇷🇺 Russia",
+    "genre": "politics",
+    "genre_label": "政治経済",
+    "rank": 2,
+    "community": "Telegram / VK / independent media",
+    "title": "親クレムリンブロガーRemesloの離反と精神病院送り",
+    "shift": "Remeslo（本名Pospelov、長年プーチン支持の法律系インフルエンサー）が公然と体制離反。当局は精神科強制入院で対応。",
+    "context": "親クレムリン・ブロガーとして知られたRemeslo（レメスロ、本名：Pospelov、法律系Telegram発信者として約40万フォロワーを持つ）がウクライナ戦争に対する疑問を公に表明。当局は「精神鑑定」名目で精神病院に強制収容。ソ連時代の「懲罰精神医学」（政治的反対者を精神異常として入院させる弾圧手法）の復活として国際的な批判を集めている。",
+    "analysis": "体制内部からの離反は、プーチン政権の「同意の製造」メカニズムに亀裂が入っていることを示す。Remesloのケースが重要なのは、Navalny（ナワリヌイ、2024年獄中死した反体制派指導者）のような反体制派ではなく「味方だった人間」が離反した点。精神医学の政治利用というソ連的手法への回帰は、法的手続きすら面倒になった当局の焦りを示唆する。",
+    "why_now": "戦争の長期化により、体制側インフルエンサーの間でも疲弊と疑問が蓄積。Remesloの離反は氷山の一角であり、同様の「静かな離反」が水面下で進行している可能性。",
+    "evidence": [
+      "Remeslo本人のTelegram投稿で戦争への疑問を明確に表明",
+      "精神科強制入院の事実がMeduza・Novaya Gazeta（ノーバヤ・ガゼータ、ノーベル平和賞受賞のムラトフが編集長を務めた独立紙）で報道",
+      "Human Rights Watch（国際人権団体）が「懲罰精神医学の復活」として非難声明"
+    ],
+    "frames": {
+      "pro": "国家安全保障上の必要措置、精神的不安定者の保護",
+      "con": "ソ連時代の懲罰精神医学の復活、言論弾圧の新たな手法",
+      "question": "体制側インフルエンサーの離反は個別事象か、構造的な亀裂の兆候か？"
+    },
+    "watch_next": "Remesloの釈放時期と釈放後の言動。他の親クレムリン・ブロガーの反応（沈黙か連帯か）。精神医学の政治利用に対する国際的圧力の効果。",
+    "tags": ["punitive-psychiatry", "influencer-defection", "war-fatigue", "kremlin"],
+    "sources": "Meduza, Novaya Gazeta, Telegram, Human Rights Watch",
+    "confidence": 0.82,
+    "date": "2026-03-29",
+    "updated": "2026-03-29"
+  },
+  {
+    "id": "ru-pol-20260329-rybar",
+    "country": "russia",
+    "country_label": "🇷🇺 Russia",
+    "genre": "politics",
+    "genre_label": "政治経済",
+    "rank": 3,
+    "community": "Telegram / Rybar / WarGonzo",
+    "title": "軍事ブロガーの焦点移動：ウクライナ→中東・アフリカ",
+    "shift": "Rybar（リバル、150万フォロワーを持つロシア最大の軍事分析Telegramチャンネル）等がウクライナ前線の報道比率を下げ、中東・アフリカに注力。",
+    "context": "Rybar、WarGonzo（ワーゴンゾ、前線取材で知られる軍事ブロガーPegov運営のチャンネル）等の主要軍事Telegramチャンネルが、ウクライナ前線の詳細報道を減少させ、代わりにシリア・リビア・サヘル地域でのロシア軍事活動や地政学的影響力の報道を増加。フォロワーからは「戦場の現実から目を逸らしている」との批判も。",
+    "analysis": "軍事ブロガーの焦点移動は二つの可能性を示唆する。一つは当局からの「ウクライナ前線の悪いニュースを控えよ」という圧力。もう一つは、前線の膠着状態により「勝利の物語」を描きにくくなったため、Africa Corps（アフリカ軍団、Wagner解体後にロシア国防省が再編した民間軍事組織）の活動など、より成果を見せやすい地域に「勝ち戦」を求めている可能性。いずれにせよ、ロシアの戦争叙事が変化している兆候。",
+    "why_now": "ウクライナ前線の膠着状態が長期化し、ポジティブな戦果報告が困難に。同時に、ロシアのアフリカ進出（Africa Corpsの活動拡大）が新たな「成功物語」の素材を提供。",
+    "evidence": [
+      "Rybar（フォロワー150万）のウクライナ関連投稿比率が2月比で30%減少",
+      "WarGonzoのシリア・リビア関連投稿が3倍に増加",
+      "フォロワーコメントで「前線から逃げるな」との批判が増加"
+    ],
+    "frames": {
+      "pro": "ロシアの多方面での地政学的成功を正当に報道",
+      "con": "ウクライナの現実からの意図的な目逸らし、情報操作への加担",
+      "question": "軍事ブロガーの焦点移動は自発的判断か、当局の指示か？"
+    },
+    "watch_next": "4月の春季攻勢シーズンにウクライナ報道が回復するか。軍事ブロガーとロシア国防省の関係変化。フォロワーの離反率。",
+    "tags": ["war-narrative", "military-bloggers", "focus-shift", "africa-pivot"],
+    "sources": "Rybar Telegram, WarGonzo, Mediazona, iStories",
+    "confidence": 0.79,
+    "date": "2026-03-29",
+    "updated": "2026-03-29"
+  },
+  {
+    "id": "cn-pol-20260329-zhihu",
+    "country": "china",
+    "country_label": "🇨🇳 China",
+    "genre": "politics",
+    "genre_label": "政治経済",
+    "rank": 1,
+    "community": "Zhihu / Weibo / Douban",
+    "title": "Zhihuの自主検証文化：国民が政府発表を自力で裏取り",
+    "shift": "Zhihu（知乎、中国版Quora的な知識層向け長文Q&Aプラットフォーム）で「信じるな、自分で確かめろ」が知識層のデフォルト姿勢に定着。",
+    "context": "Zhihuを中心に、政府発表やXinhua（新華社通信、中国国営通信社）等の公式メディア報道に対して、ユーザーが独自にデータ・一次ソース・論文を用いて検証する文化が急速に拡大。検閲の隙間を縫うように、直接的な批判ではなく「自主検証」という形で事実上の異議申し立てが行われている。",
+    "analysis": "中国の知識層が開発した「検閲回避型ファクトチェック」は、直接的な政府批判（=即削除）を避けつつ、事実の提示によって公式叙事に疑問を投げかける高度な戦術。「なぜこのデータがNBS（国家統計局）の公式発表と異なるのか」という問いの形式は、検閲AIにとって判断が難しく、削除のコストが高い。これは中国版の「構造的抵抗」と言える。",
+    "why_now": "経済減速に伴い、NBS（国家統計局）の公式統計と体感経済の乖離が拡大。不動産危機、若年失業率の統計発表停止（2023年に一度停止後、算出方法を変更して再開）などの経験が、国民の「自分で確かめる」姿勢を強化した。",
+    "evidence": [
+      "Zhihuで「数据验证（データ検証）」タグ付き投稿が前年比200%増",
+      "NBS経済統計に対する自主分析スレッドが常時トレンド入り",
+      "検閲と復活を繰り返す検証投稿の「モグラ叩き」状態が常態化"
+    ],
+    "frames": {
+      "pro": "国民のリテラシー向上、健全な情報消費の促進",
+      "con": "政府の信頼性を損なう行為、社会不安の助長",
+      "question": "自主検証文化は体制を脅かすのか、それともガス抜きとして機能するのか？"
+    },
+    "watch_next": "CAC（中国サイバースペース管理局）がZhihuの検証文化をどの程度許容するか。規制強化の有無。検証文化がWeibo（微博、中国版Twitter的なマイクロブログ）など大衆プラットフォームに波及するか。",
+    "tags": ["fact-checking", "censorship-evasion", "knowledge-class", "zhihu"],
+    "sources": "Zhihu, China Digital Times, SupChina, MIT Technology Review",
+    "confidence": 0.85,
+    "date": "2026-03-29",
+    "updated": "2026-03-29"
+  },
+  {
+    "id": "cn-cul-20260329-feminism",
+    "country": "china",
+    "country_label": "🇨🇳 China",
+    "genre": "culture",
+    "genre_label": "芸能文化",
+    "rank": 2,
+    "community": "Weibo / Douban / Xiaohongshu",
+    "title": "フェミニズムBAN vs 女神の日マーケティング矛盾",
+    "shift": "フェミニスト言説を検閲しつつ「女神節」（3月8日国際女性デーの中国EC商戦名称）で女性消費を煽る構造的矛盾が可視化。",
+    "context": "CAC（中国サイバースペース管理局）がフェミニスト系アカウントやコンテンツの検閲を強化する一方、Tmall（天猫、アリババ系EC）やJD.com（京東、中国第2位のEC）は「女神節」として大規模な女性向けマーケティングを展開。「フェミニズムは危険だが女性の財布は歓迎」という矛盾に対し、若い女性ユーザーから皮肉と批判が噴出。",
+    "analysis": "当局と市場の矛盾が最も可視化された事例。フェミニズムを「境外勢力（外国勢力）の影響」として抑圧しつつ、「女性の消費力」は最大限活用するという二重基準は、若い女性たちの間で「消費フェミニズム」への覚醒を促している。Douban（豆瓣、中国の映画・書籍レビュー兼コミュニティサイト）の女性コミュニティでの「不買」呼びかけは、政治的フェミニズムが消費行動を通じて表出する新たな形態。",
+    "why_now": "3月8日の国際女性デー（中国ではEC各社が「女神節」として商戦化）が毎年この矛盾を顕在化させるが、今年はフェミニスト系Weiboアカウントの大量BAN直後だったため、コントラストが特に鮮明。",
+    "evidence": [
+      "3月初旬にフェミニスト系Weiboアカウント50以上が凍結",
+      "同時期にTmall・JD.comが「女神節」セールで前年比15%増の売上",
+      "Doubanの女性コミュニティで「不買運動」関連スレッドが急増（後に一部削除）"
+    ],
+    "frames": {
+      "pro": "社会の安定維持と健全な消費経済の両立",
+      "con": "女性の権利を抑圧しつつ消費力だけ搾取する二重基準",
+      "question": "消費を通じた抵抗は政治的フェミニズムの代替になり得るか？"
+    },
+    "watch_next": "不買運動の継続性。当局がEC企業の「女神節」マーケティングに介入するか。Doubanの女性コミュニティへの規制強化。Xiaohongshu（小紅書、中国版Instagram的なライフスタイルSNS）での議論の広がり。",
+    "tags": ["feminism", "censorship", "consumerism", "gender-politics"],
+    "sources": "Weibo, Douban, Xiaohongshu, China Digital Times, SCMP",
+    "confidence": 0.83,
+    "date": "2026-03-29",
+    "updated": "2026-03-29"
+  },
+  {
+    "id": "cn-tech-20260329-ev",
+    "country": "china",
+    "country_label": "🇨🇳 China",
+    "genre": "tech_life",
+    "genre_label": "テクノロジー/生活",
+    "rank": 3,
+    "community": "Weibo / Zhihu / Autohome",
+    "title": "ガソリン高騰→EV乗り換え論争の政治化",
+    "shift": "中東危機によるガソリン高騰が中国の一般家庭を直撃し、EV vs ガソリン車論争が「愛国」「売国」の政治的対立軸に変質。",
+    "context": "ガソリン価格の高騰を受け、EV乗り換えの議論がSNSで活発化。しかし議論は純粋な経済合理性を超え、BYD（比亜迪、中国最大のEVメーカー）やNIO（蔚来、中国の高級EVスタートアップ）を支持する「愛国消費」派と、Tesla（テスラ）等の外資ブランドを選ぶ「合理的消費」派の対立に発展。前者が後者を「売国」と攻撃する構図が先鋭化。",
+    "analysis": "消費選択の政治化は中国SNSの常套パターンだが、EV論争はエネルギー安全保障・産業政策・民族主義が交差する特に敏感な領域。BYDの急成長が「中国製造2025」（国家主導のハイテク産業育成戦略）の象徴となったことで、EV選択が事実上の政治的立場表明として機能し始めている。Autohome（汽車之家、中国最大の自動車コミュニティサイト）でも議論が過熱。",
+    "why_now": "2026年3月のNDRC（国家発展改革委員会）によるガソリン価格3度目の引き上げが直接的トリガー。同時期にBYDの新モデル発表とTeslaの値下げが重なり、「どちらを選ぶか」が踏み絵的な状況に。",
+    "evidence": [
+      "Weibo「油车换电车（ガソリン→EV乗換）」トピックが48時間で3億PV",
+      "Zhihuで「Teslaを買うのは売国か」スレッドに5,000以上の回答",
+      "BYD公式Weiboが暗にTeslaユーザーを揶揄する投稿でバズ（後に削除）"
+    ],
+    "frames": {
+      "pro": "国産EV支持は産業育成と愛国心の健全な表現",
+      "con": "消費の政治化は自由な選択を阻害し、市場を歪める",
+      "question": "「愛国消費」圧力はEV市場の健全な競争を阻害するか促進するか？"
+    },
+    "watch_next": "NDRCによるガソリン価格のさらなる動向。Tesla中国の販売データ変化。当局が論争に介入するか放置するか。",
+    "tags": ["ev-war", "nationalism", "consumer-politics", "energy"],
+    "sources": "Weibo, Zhihu, Autohome, 36Kr, CnEVPost",
+    "confidence": 0.80,
+    "date": "2026-03-29",
+    "updated": "2026-03-29"
+  },
+  {
+    "id": "us-cul-20260329-druski",
+    "country": "united_states",
+    "country_label": "🇺🇸 United States",
+    "genre": "culture",
+    "genre_label": "芸能文化",
+    "rank": 1,
+    "community": "Twitter/X / Instagram / TikTok",
+    "title": "Druski vs Erika Kirk：政治風刺の境界線論争",
+    "shift": "Druski（Instagram発の人気コメディアン、本名Drew Desbordes）の政治風刺が「加害」か「表現の自由」かで世論が二分。",
+    "context": "人気コメディアンDruski（ドルスキ、SNSスキットで急成長したコメディアン、フォロワー数2,000万超）がTikTokで政治的な風刺動画を投稿。Erika Kirk（エリカ・カーク、Turning Point USA創設者Charlie Kirk（保守系政治活動家）の未亡人でTPUSA運営に関与）がこれを「政治的暴力の正常化」として批判し、大規模な論争に発展。左右両陣営がそれぞれの立場からこの論争を利用し、文化戦争の新たな戦線に。",
+    "analysis": "風刺とヘイトの境界線を巡る議論は、アメリカの文化戦争における新たなフロントライン。SNS時代のコメディアンは「エンターテイナー」と「政治的インフルエンサー」の二重のアイデンティティを持ち、その発言の影響力と責任の範囲が曖昧。Druskiの事例は、Section 230（通信品位法230条、プラットフォームの免責条項）の議論とも交差し、プラットフォーム上での政治的表現の自由と、その影響に対する責任のバランスという、より広い問題を浮き彫りにしている。",
+    "why_now": "2026年中間選挙に向けた政治的緊張の高まりの中、エンタメと政治の境界が急速に溶解。TikTokの影響力拡大により、コメディアンの政治風刺がSNL（Saturday Night Live）等の従来のTV風刺とは桁違いのリーチを持つように。",
+    "evidence": [
+      "Druskiの風刺動画が48時間で2,000万再生を突破",
+      "Erika Kirkの批判ツイートに10万以上のリプライ（賛否半々）",
+      "「#FreeSpeech」「#AccountabilityMatters」両ハッシュタグがトレンド入り"
+    ],
+    "frames": {
+      "pro": "風刺は民主主義の根幹。不快でも保護されるべき表現",
+      "con": "影響力のある人物の「風刺」は弱者への攻撃になりうる",
+      "question": "SNS時代のコメディアンに、従来のジャーナリストと同等の責任を求めるべきか？"
+    },
+    "watch_next": "Druskiの次回投稿の方向性。TikTokのコンテンツモデレーション対応。TPUSA（Turning Point USA、保守系政治活動団体）の次の動き。",
+    "tags": ["satire", "free-speech", "culture-war", "comedy-politics"],
+    "sources": "Twitter/X, TikTok, Instagram, Variety, The Daily Beast",
+    "confidence": 0.81,
+    "date": "2026-03-29",
+    "updated": "2026-03-29"
+  },
+  {
+    "id": "us-cul-20260329-chalamet",
+    "country": "united_states",
+    "country_label": "🇺🇸 United States",
+    "genre": "culture",
+    "genre_label": "芸能文化",
+    "rank": 2,
+    "community": "Twitter/X / Reddit / Instagram",
+    "title": "Timothée Chalamet「バレエとオペラは誰も気にしてない」発言",
+    "shift": "Timothée Chalamet（ティモシー・シャラメ、『Dune』『Wonka』等のハリウッド若手トップ俳優）の発言でハイカルチャー vs ポップカルチャーの階級的断層が再燃。",
+    "context": "ChalamotがHoward Stern Show（ハワード・スターン・ショー、米国の長寿ラジオ番組）のインタビューで「バレエやオペラは一般の人は気にしていない」と発言。ABT（American Ballet Theatre、アメリカン・バレエ・シアター、米国最高峰のバレエ団）等の芸術関係者から猛反発を受ける一方、一般ユーザーからは「事実を言っただけ」と擁護の声。文化の民主化と伝統芸術の価値を巡る議論に発展。",
+    "analysis": "Chalamotの発言は、文化的階層構造に対する世代的な態度の変化を可視化した。ミレニアル/Z世代にとって「ハイカルチャー」はアクセスの問題ではなく関心の問題。この発言が炎上したのは、ハリウッドスターという「文化エリート」が自らの階層のゲートキーピングを否定したことによる。NEA（National Endowment for the Arts、米国芸術基金）の予算議論にも波及する可能性がある。",
+    "why_now": "ストリーミング文化の完全定着により、コンテンツの「格」の概念が根本的に変化。Chalamet自身がA24（インディ映画配給会社）作品からメインストリーム大作への架け橋的存在であることが、この発言に特別な文脈を与えている。",
+    "evidence": [
+      "発言動画がTwitterで5,000万インプレッション",
+      "ABT（American Ballet Theatre）が公式声明で間接的に反論",
+      "Reddit r/cultureで「ハイカルチャーは死んだか」スレッドに3,000コメント"
+    ],
+    "frames": {
+      "pro": "文化の民主化。一般人の実感を正直に代弁した",
+      "con": "伝統芸術の価値を軽視。アクセスの不平等を無視した発言",
+      "question": "「誰も気にしていない」のは事実か、それとも構造的排除の結果か？"
+    },
+    "watch_next": "Chalamotの対応（謝罪・撤回・倍プッシュ）。NEA（米国芸術基金）予算への政策議論への波及。伝統芸術団体のマーケティング戦略変化。",
+    "tags": ["high-culture", "class-divide", "celebrity-discourse", "arts-funding"],
+    "sources": "Twitter/X, Reddit, Variety, The Guardian, NYT Arts",
+    "confidence": 0.77,
+    "date": "2026-03-29",
+    "updated": "2026-03-29"
+  },
+  {
+    "id": "us-pol-20260329-california",
+    "country": "united_states",
+    "country_label": "🇺🇸 United States",
+    "genre": "politics",
+    "genre_label": "政治経済",
+    "rank": 3,
+    "community": "Twitter/X / Reddit / Local media",
+    "title": "California知事討論の人種排除問題",
+    "shift": "USC（南カリフォルニア大学）とKABC（ロサンゼルスのABC系列局）主催のカリフォルニア知事選討論会から有色人種候補が全員排除され、討論会自体が中止に。",
+    "context": "カリフォルニア知事選の公式討論会の参加基準（世論調査での支持率閾値）が、事実上、資金力のあるメジャー候補以外を排除する設計になっていると批判。特に、有色人種候補者が不均衡に排除されていると指摘され、「進歩的」を標榜する州の矛盾として議論に。NAACP（全米有色人種地位向上協会）やCBC（Congressional Black Caucus、議会黒人幹部会）が声明を発表。",
+    "analysis": "「メリトクラシー的」な参加基準が構造的に不平等な結果を生む典型例。世論調査の支持率は既存メディア露出と相関し、メディア露出は資金力と相関する。結果として、形式的に中立な基準が実質的にマイノリティを排除する。カリフォルニアという「最もリベラルな州」でこれが起きていることが、構造的人種差別（systemic racism）の根深さを示している。",
+    "why_now": "2026年知事選の予備選が本格化。USCとKABCが設定した公式討論会の参加者リスト発表が直接的トリガー。同時期にSCOTUS（連邦最高裁判所）でのDEI（Diversity, Equity & Inclusion、多様性・公平性・包摂）関連判決への全米的な反発も背景に。",
+    "evidence": [
+      "討論会参加5候補中、有色人種候補は1名のみ（州人口比63%が非白人）",
+      "排除された候補3名中2名が有色人種（いずれも支持率閾値をわずかに下回る）",
+      "Twitter上で#DebateAccessハッシュタグが12時間でトレンド入り、NAACP（全米有色人種地位向上協会）が非難声明"
+    ],
+    "frames": {
+      "pro": "明確な基準による公正な選別。リソースの効率的配分",
+      "con": "形式的中立が実質的排除を生む構造的差別",
+      "question": "「メリトクラシー」は本当に中立か？基準の設計自体が政治的では？"
+    },
+    "watch_next": "排除された候補の独自討論会開催の動き。DNC（民主党全国委員会）の対応。基準変更の署名運動の規模。",
+    "tags": ["structural-racism", "debate-access", "meritocracy-myth", "california"],
+    "sources": "LA Times, CalMatters, Twitter/X, Politico California",
+    "confidence": 0.78,
+    "date": "2026-03-29",
+    "updated": "2026-03-29"
+  },
+  {
+    "id": "cross-thought-20260329-authority",
+    "country": "cross-cutting",
+    "country_label": "💭 Cross-cutting",
+    "genre": "thought",
+    "genre_label": "思想・哲学圏",
+    "rank": 1,
+    "community": "Reddit r/philosophy / r/CriticalTheory / Zhihu",
+    "title": "「誰が判断の権威を持つのか」問題の多領域同時噴出",
+    "shift": "権威の正統性を問う構造が、国・領域を超えて同時多発的に出現。",
+    "context": "ロシアのTelegram遮断（Roskomnadzor（通信監督庁） vs 市民の情報アクセス権）、中国のZhihu検証文化（国民 vs NBS（国家統計局）公式統計の信頼性）、米国のDruski論争（誰がSection 230（通信品位法230条）の下で表現の適切性を判断するのか）、カリフォルニア討論会（誰がUSC/KABC基準で参加の閾値を決めるのか）—— これらは表面的には異なるが、すべて「権威の正統性（legitimacy）」を問う構造を共有している。",
+    "analysis": "2026年3月の各国の論争を貫く共通テーマは「権威のレジティマシー・クライシス（正統性危機）」。デジタル化とSNSの普及により、従来の権威構造（国家、専門家、メディア、制度）の正統性が同時多発的に問い直されている。重要なのは、これがTrump（トランプ）的な右派ポピュリズムの「反エリート」感情とも、Foucault（フーコー、フランスの哲学者）的な左派の「構造的批判」とも異なる、より根本的な認識論的危機（epistemic crisis）であること。「何を信じるべきか」ではなく「誰が信じるべきものを決めるのか」という、メタレベルの問いが浮上している。",
+    "why_now": "デジタルプラットフォームが「代替的権威」を提供可能にしたことで、従来の権威独占が崩壊。同時に、フェイク情報の氾濫により「権威なき判断」の危険性も可視化。Habermas（ハーバーマス、ドイツの哲学者、公共圏理論の提唱者）が論じた「公共圏」の変容が、デジタル空間で加速的に進行している。",
+    "evidence": [
+      "3カ国9つのシフトのうち7つが「判断の権威」に関する構造的問いを含む",
+      "Reddit r/philosophyで「epistemic authority in digital age」スレッドが月間トップ",
+      "Zhihuの検証文化とロシアのVPN利用急増が「市民による権威の迂回」として構造的に同型"
+    ],
+    "frames": {
+      "pro": "権威の分散化は民主主義の深化。市民の自律的判断力の向上",
+      "con": "権威なき社会は陰謀論とポスト真実の温床。社会的合意形成の崩壊",
+      "question": "「権威の危機」はデジタル時代の過渡的現象か、構造的な不可逆変化か？"
+    },
+    "watch_next": "各国での「権威再構築」の試み（中国：CAC検閲強化、ロシア：Roskomnadzor遮断、米国：FCC（連邦通信委員会）プラットフォーム規制）の成否。DAO（分散型自律組織）やCommunity Notes（Xのコミュニティノート機能）等の代替的権威構造の発展。",
+    "tags": ["epistemic-crisis", "authority", "cross-national", "digital-age", "meta-analysis"],
+    "sources": "Synthesis across all monitored sources",
+    "confidence": 0.90,
+    "date": "2026-03-29",
+    "updated": "2026-03-29",
+    "cross_section": "thought"
+  }
+]

@@ -73,3 +73,16 @@ body {
 .ring-pill {
   box-shadow: inset 0 0 0 1px rgba(194, 54, 22, 0.2);
 }
+
+/* Article typography */
+.article-heading {
+  @apply text-xs font-mono uppercase tracking-widest text-ember mb-3;
+}
+
+.article-text {
+  @apply text-base leading-[1.8] text-ash-200;
+}
+
+.article-body {
+  @apply text-base;
+}
